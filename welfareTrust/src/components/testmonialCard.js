@@ -21,10 +21,10 @@ function TestimonialCard({ imageUrl, name, comment, address }) {
                 >
                     <div className='absolute top-2 left-3 w-[70px] h-[70px] rounded-full bg-[#3EC1D3] -z-20  overflow-hidden '>
                     </div>
-                    <img
+                    {/* <img
                         src={imageUrl}
                         className='w-[220px] h-[220px] p-2 bg-center object-cover  bg-no-repeat stroke-none overflow-hidden m-auto rounded-full border border-[#3EC1D3]'
-                    />
+                    /> */}
                 </div>
                 <div className='w-full mt-3 lg:mt-5 lg:w-1/2  m-auto'>
                     <ImQuotesLeft size={24} className='text-[#ccd3e4] mb-2 ' />

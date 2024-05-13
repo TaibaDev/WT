@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import HeroSection from "@/components/heroSection";
 import Image from "next/image";
 import 'aos/dist/aos.css';
