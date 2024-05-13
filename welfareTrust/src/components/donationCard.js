@@ -36,7 +36,7 @@ const DonationCard = () => {
                                 </div>
                             </div>
                             <div className=' w-full md:w-[50%] h-auto '>
-                                <Image src={donate} alt='image' className=' h-[250px] md:h-[350px]  w-auto' />
+                                <Image src={donate} alt='image' width={300} height={300} />
                             </div>
                         </div>
                     </div>

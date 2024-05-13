@@ -10,6 +10,8 @@ const HomeSection = () => {
           <div className="w-full h-64 lg:w-1/2 lg:h-auto">
             <Image
               className="lg:h-[600px] h-full w-full lg:mx-auto object-cover rounded-md "
+              width={200}
+              height={200}
               src={top}
                alt="Winding mountain road"
               data-aos="zoom-in-up"

@@ -80,7 +80,7 @@ const PracticeNavbar = () => {
           {isOpen ? <></> : <FaBars />}
         </button>
         <div className=" ml-5 md:ml-9 h-[100px]">
-          <Image alt="my pic" src={log} className="w-[80px] h-[80px] overflow-hidden object-contain mt-3 lg:hidden" />
+          <Image alt="my pic" src={log} width={80} height={80} className="overflow-hidden object-contain mt-3 lg:hidden" />
         </div>
       </div>
 

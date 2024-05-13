@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 import { images } from '@/utils/images';
-
+import Image from 'next/image';
 
 import { Autoplay, EffectFade } from 'swiper/modules';
 const ImageGallery = () => {
@@ -44,9 +44,9 @@ const ImageGallery = () => {
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={index}  >
-                        {/* <>
-                            <img src={image} className="w-[200px] h-[200px]  object-contain rounded-full overflow-hidden " alt={`Slide ${index}`} />
-                        </> */}
+                        <>
+                            <Image src={image} width={200} height={200} className="object-contain rounded-full overflow-hidden " alt={`Slide ${index}`} />
+                        </>
                     </SwiperSlide>
                 ))}
             </Swiper>
