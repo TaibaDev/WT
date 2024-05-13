@@ -9,7 +9,7 @@ import Drawer from "./rightDrawer";
 const Navbar = () => {
   return (
     <div className="bg-white shadow-md lg:hidden">
-      <nav class="flex justify-end items-center bg-gray-100 px-32 py-4">
+      <nav className="flex justify-end items-center bg-gray-100 px-32 py-4">
         <ul className="flex items-center gap-x-16 font-semibold">
         <li className="hover:underline underline-offset-8 decoration-4 decoration-rose-500 hover:decoration-gap-2 transition-all duration-300 ease-in-out hover:text-secondary">
             <Link href="/">Home</Link>
